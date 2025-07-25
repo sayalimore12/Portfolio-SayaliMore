@@ -16,13 +16,13 @@ export default function Home() {
                     </div>
                     <div className="profile-text">
                       <h1>Hi, I'm Sayali More</h1>
-                     <h2> Frontend Developer • UI/UX Specialist</h2>
+                     <h2> Frontend Developer & UI/UX Specialist</h2> <i>Transforming ideas into engaging, user-focused digital solutions</i>
                         <p className="introText">
-                            I'm a Front-End UI/UX Developer with over 7 years of experience crafting responsive, accessible, and user-centric web applications. I specialize in building scalable front-end architectures using React, TypeScript, and modern design systems.
+                            I design and build responsive, accessible, and user-focused digital experiences. With 7+ years of expertise in JavaScript, React, CMS platforms, and modern UI/UX design, I bring creativity and precision to every project. I follow WCAG accessibility standards to ensure inclusivity and leverage SEO best practices to create high-performing, discoverable websites
                             <br /><br />
-                            I work closely with design tools like Figma and Adobe XD to translate ideas into clean, reusable components. With hands-on experience in Material UI and Tailwind CSS, I create consistent, modern interfaces that are both visually engaging and developer-friendly.
+                           I'm passionate about bringing impactful web experiences to life. With a strong foundation in front-end development, modern tools, and user-centered design, I'm always excited to take on new projects. I aim to collaborate with clients and stakeholders to build accessible, responsive, and visually engaging websites that align with their goals and connect with their audiences.
                             <br /><br />
-                            I'm passionate about performance optimization and writing maintainable code that brings designs to life across devices and platforms.
+                           
                         </p>
                     </div>
                 </div>
