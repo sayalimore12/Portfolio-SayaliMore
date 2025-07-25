@@ -39,7 +39,7 @@ const experienceData = [
         company: 'Maxxton',
         date: 'Aug 2016 – Dec 2019',
         description:
-            'Collected and synthesized client requirements to guide the front-end development of a CMS using ReactJS, ensuring UI consistency and cross-browser compatibility. Led a team of four developers through the Newyse CMS redesign, applied SEO strategies to increase traffic by 40%, and performed thorough testing to validate functionality.',
+            'Collected and synthesized client requirements to guide the front-end development of a CMS using ReactJS, ensuring UI consistency and cross-browser compatibility. Led a team of developers through the Newyse CMS redesign, applied SEO strategies to increase traffic by 40%, and performed thorough testing to validate functionality.',
     },
       {
         title: 'Front-End Developer',
