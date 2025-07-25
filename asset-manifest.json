@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d7cf6f60.css",
+    "main.js": "/static/js/main.89c484b0.js",
+    "static/js/453.b06fd736.chunk.js": "/static/js/453.b06fd736.chunk.js",
+    "static/media/professional-photo.png": "/static/media/professional-photo.981ce21faf4404e16174.png",
+    "static/media/resume.pdf": "/static/media/resume.b05ed9ff8c7e6d2a4b14.pdf",
+    "static/media/TGI.jpg": "/static/media/TGI.e899065afea3f118ac28.jpg",
+    "static/media/mentoring.jpg": "/static/media/mentoring.f1b8f877c127fa4ce9bc.jpg",
+    "static/media/marlin.jpg": "/static/media/marlin.975c6dfbbfe1ec57d63f.jpg",
+    "static/media/coditas.jpg": "/static/media/coditas.98da47d273c21182706a.jpg",
+    "static/media/europarks.jpg": "/static/media/europarks.043c056266120be4272e.jpg",
+    "static/media/roompot-groups.jpg": "/static/media/roompot-groups.47f5b8335e7c5d565815.jpg",
+    "static/media/hdfc.jpg": "/static/media/hdfc.a43d00a87e66e919e76d.jpg",
+    "static/media/castle.jpg": "/static/media/castle.6a987e1a9ba9635dfc5b.jpg",
+    "static/media/codinu.jpg": "/static/media/codinu.49a3e9d9490e2525f47c.jpg",
+    "index.html": "/index.html",
+    "main.d7cf6f60.css.map": "/static/css/main.d7cf6f60.css.map",
+    "main.89c484b0.js.map": "/static/js/main.89c484b0.js.map",
+    "453.b06fd736.chunk.js.map": "/static/js/453.b06fd736.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7cf6f60.css",
+    "static/js/main.89c484b0.js"
+  ]
+}

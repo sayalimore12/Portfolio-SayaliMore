@@ -1,0 +1,180 @@
+// header {
+//     background: #0D0D0D!important;
+//     font-weight:400px ;
+// }
+
+// // .myPhotoContainer img{
+// //     width: 450px;
+// // }
+
+// .profile-flex {
+//   display: flex;
+//   align-items: center;
+//   gap: 2rem; // spacing between photo and text
+//   flex-wrap: wrap; // responsive for smaller screens
+// }
+
+// .myPhotoContainer img {
+//   width: 350px;
+//   height: auto;
+//   border-radius: 10px;
+//   object-fit: cover;
+// }
+
+// .introText {
+//     font-size: 1rem;
+// }
+// .profile-text {
+//   flex: 1;
+// }
+
+// .buttonClick {
+//   background: #863A6F;
+//}
+// .cardWrapper {
+//     width: 450px;
+// }
+
+// --------------------HOME------------------------------------------------
+.profile-section {
+  padding: 2rem 0;
+}
+
+.profile-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 3rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .myPhotoContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1rem; /* optional spacing */
+  }
+
+  .myPhotoContainer img {
+    width: 200px;
+  }
+}
+
+.myPhotoContainer {
+  flex-shrink: 0;
+
+  img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #D1E3DD;
+    box-shadow: 0 0 20px rgba(209, 227, 221, 0.2);
+  }
+
+  @media (max-width: 768px) {
+    img {
+      width: 200px;
+    }
+  }
+}
+
+.profile-text {
+  flex: 1;
+ 
+  .introText {
+   // font-size: 1.1rem;
+    line-height: 1.8;
+    color: #000000;
+
+    @media (max-width: 768px) {
+    //  font-size: 1rem;
+      text-align: justify;
+    }
+  }
+}
+ 
+
+// About
+
+.about-section {
+  h2{
+  //  font-size: 2rem;
+  text-align: center !important;  
+  }
+
+  p {
+ //   font-size: 1.1rem;
+    line-height: 1.8;
+    color: #0d0d0d;
+    text-align: justify;
+
+    @media (max-width: 768px) {
+    //  font-size: 1rem;
+    }
+  }
+}
+
+// Skills
+.skills-section {
+  background-color:	#f2f0ed;
+  color: #0d0d0d;
+  padding: 2.5rem 0;
+  
+
+  .skills-title {
+    text-align: center;
+    color: #0d0d0d;
+  }
+
+  .skills-grid {
+    display: flex;
+    justify-content: center;
+  }
+
+  .skill-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(6px);
+    transition: all 0.3s ease;
+    color: #0d0d0d;
+
+    .icon {
+      font-size: 4.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    &:hover {
+      transform: translateY(-5px);
+      background: rgba(209, 227, 221, 0.08);
+      border-color: rgba(209, 227, 221, 0.3);
+    }
+
+    @media (max-width: 600px) {
+    //  font-size: 0.95rem;
+      padding: 1rem;
+    }
+  }
+}
+
+// project
+.project-section{
+  text-align: center;
+    margin-bottom: 1rem !important;
+    color: #0d0d0d;
+    h2{
+      margin-top: 0rem;
+    }
+}
